@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "https://alacloud-container-dev.blueground-04c6e195.francecentral.azurecontainerapps.io/"
+      "https://alacloud-container-api-dev.salmonriver-ae2db3d5.francecentral.azurecontainerapps.io/"
     )
       .then((response) => {
         if (!response.ok) throw new Error("Network response was not ok");
