@@ -1,36 +1,20 @@
-import { useEffect, useState } from "react";
+import { Routes, Route } from "react-router";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Navbar from "./components/Navbar";
 
-import "./App.css";
-
-function App() {
-  type skills = { skillsName: string; field: string };
-
-  const [users, setUsers] = useState<skills[]>([]);
-
-  useEffect(() => {
-    fetch(
-      "https://alacloud-container-api-dev.salmonriver-ae2db3d5.francecentral.azurecontainerapps.io/"
-    )
-      .then((response) => {
-        if (!response.ok) throw new Error("Network response was not ok");
-        return response.json();
-      })
-      .then((data) => setUsers(data))
-      .catch((error) => console.error("Error fetching users:", error));
-  }, []);
-
+export default function App() {
   return (
     <>
-      <div>
-        <h2>Skills</h2>
-        <ul>
-          {users.map((user, index) => (
-            <li key={index}>{user.skillsName}</li>
-          ))}
-        </ul>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }
-
-export default App;
