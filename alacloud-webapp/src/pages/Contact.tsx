@@ -12,8 +12,8 @@ export default function Contact() {
           https://www.linkedin.com/in/ala-laribi
         </a>
       </p>
-      <p>Mail : john.doe@example.com</p>
-      <a href="mailto:john.doe@example.com" className="button">
+      <p>Mail : alaalaaribi@gmail.com</p>
+      <a href="mailto:alaalaaribi@gmail.com" className="button">
         Get In Touch
       </a>
     </section>
