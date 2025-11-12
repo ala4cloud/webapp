@@ -8,7 +8,7 @@ export default function Home() {
     <section>
       <h1>Ala Laribi</h1>
       <p>Platform Engineer & Software Developer </p>
-      <NavLink to="/contact" className="button">
+      <NavLink to="/Projects" className="button">
         View My Work
       </NavLink>
       <About />
