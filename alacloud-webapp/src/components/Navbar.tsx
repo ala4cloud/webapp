@@ -10,17 +10,12 @@ export default function Navbar() {
       >
         Home
       </NavLink>
+
       <NavLink
-        to="/about"
+        to="/project"
         className={({ isActive }) => (isActive ? "active" : "")}
       >
-        About
-      </NavLink>
-      <NavLink
-        to="/projects"
-        className={({ isActive }) => (isActive ? "active" : "")}
-      >
-        Projects
+        The Project
       </NavLink>
       <NavLink
         to="/contact"
