@@ -40,7 +40,7 @@ export default function Project() {
         </li>
       </ul>
 
-      <h3>Backend (.NET 7 API)</h3>
+      <h3>Backend (.NET Core API)</h3>
       <ul>
         <li>Exposes RESTful endpoints that fetch data from Azure Cosmos DB.</li>
         <li>
@@ -50,6 +50,10 @@ export default function Project() {
         <li>
           Packaged as a Docker container and deployed to Azure Container Apps
           for scalability and efficiency.
+        </li>
+        <li>
+          CI/CD configured through GitHub Actions for automated builds and
+          deployments.
         </li>
       </ul>
 
@@ -89,6 +93,17 @@ export default function Project() {
           flexibility and reliability.
         </li>
       </ul>
+      <p>
+        <br />
+        <a
+          href="https://github.com/orgs/ala4cloud/repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button"
+        >
+          GitHub source code
+        </a>
+      </p>
     </section>
   );
 }

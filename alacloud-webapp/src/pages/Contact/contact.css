@@ -1,4 +1,4 @@
-.project-card {
+.contactSections {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 40px 20px;
@@ -14,7 +14,7 @@
   transition: 0.3s ease;
 }
 
-.project-card:hover {
+.contactSections:hover {
   border-color: var(--accent);
   box-shadow: 0 0 25px rgba(0, 120, 212, 0.2);
 }
