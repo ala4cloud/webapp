@@ -18,6 +18,12 @@ export default function Navbar() {
         The Project
       </NavLink>
       <NavLink
+        to="/skills"
+        className={({ isActive }) => (isActive ? "active" : "")}
+      >
+        Skills
+      </NavLink>
+      <NavLink
         to="/contact"
         className={({ isActive }) => (isActive ? "active" : "")}
       >

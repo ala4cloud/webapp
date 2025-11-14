@@ -1,0 +1,69 @@
+.skillsSections {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  max-width: 850px;
+  margin: 0 auto;
+  background: var(--card-dark);
+  color: var(--text-main);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  line-height: 1.7;
+  transition: 0.3s ease;
+}
+
+.skillsSections:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 25px rgba(0, 120, 212, 0.2);
+}
+
+h1 {
+  font-size: 1.8rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: var(--accent);
+  margin-top: 30px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+h3 {
+  color: var(--text-main);
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+p,
+li {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+ul {
+  margin: 10px 0 20px 20px;
+}
+strong {
+  color: var(--text-main);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  width: 50%; /* each <td> takes half the table */
+}
+.skillsSectionsContent {
+  display: flex;
+}
+.skillsSectionsContent div {
+  flex: 1;
+}

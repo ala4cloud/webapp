@@ -50,22 +50,22 @@ nav a.active {
   box-shadow: 0 0 25px rgba(0, 120, 212, 0.2);
 }
 
-h1,
-h2 {
+.homeSections h1,
+.homeSections h2 {
   color: #fff;
 }
 
-h1 {
+.homeSections h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
 }
 
-h2 {
+.homeSections h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
-p {
+.homeSections p {
   color: #bbb;
   margin-top: 20px;
   margin-bottom: 1.5rem;
