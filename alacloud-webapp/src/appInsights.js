@@ -8,7 +8,5 @@ const appInsights = new ApplicationInsights({
   },
 });
 
-console.log("Insights key:", import.meta.env.VITE_APP_INSIGHTS_KEY);
-
 appInsights.loadAppInsights();
 export default appInsights;
